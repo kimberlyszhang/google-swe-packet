@@ -1,0 +1,15 @@
+https://github.com/GPS-Demos/finra-multimodal-compliance
+https://github.com/GPS-Demos/dla-gti
+https://github.com/GPS-Demos/DoE-CEQ
+https://github.com/GPS-Demos/army-artillery-ccc-capstone
+https://github.com/GPS-Demos/nesdis-email-extraction
+https://github.com/GPS-Demos/dod-travel-agent
+https://github.com/GPS-Demos/logcap-dfac
+https://github.com/GPS-Demos/summit25-press-agents
+https://github.com/GPS-Demos/rit-project-timeline-visualizer
+https://github.com/GPS-Demos/rit-monthly-reports
+https://github.com/GPS-Demos/cbp-border-wait-times
+https://github.com/GPS-Demos/striking-bear
+https://github.com/GPS-Demos/mccs-retail
+https://github.com/GPS-Demos/dla-cyber-health
+https://github.com/GPS-Demos/foia-workflow
