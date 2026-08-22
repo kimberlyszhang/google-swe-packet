@@ -9,5 +9,3 @@ https://github.com/GPS-Demos/summit25-press-agents
 https://github.com/GPS-Demos/rit-project-timeline-visualizer
 https://github.com/GPS-Demos/cbp-border-wait-times
 https://github.com/GPS-Demos/mccs-retail
-https://github.com/GPS-Demos/dla-cyber-health
-https://github.com/GPS-Demos/foia-workflow
