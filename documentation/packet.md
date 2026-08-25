@@ -32,7 +32,7 @@ Measured at the build that produced it: the blind set was last swept at `0.5.0` 
 
 ---
 
-**Project:** Defense Logistics Agency — Cyber Health Dashboard (Q2 2026). AI-driven vulnerability management replacing manual Excel reporting, tracking 200,000+ CVEs across Google Threat Intelligence, Chronicle and eMASS.
+**Project:** Defense Logistics Agency — Cyber Health Dashboard. AI-driven vulnerability management replacing manual Excel reporting, tracking 200,000+ CVEs across Google Threat Intelligence, Chronicle and eMASS.
 
 **Authorship:** Kimberly Zhang
 
@@ -68,7 +68,7 @@ A control deferred rather than built is a written decision with a reversal condi
 
 ---
 
-**Project:** Army Fires Center of Excellence — Captains Career Course Table-Top Exercise Simulator (2025–2026). Replaces Excel-based tabletop exercises with a RAG chatbot over Army doctrine and a Google Maps operational picture.
+**Project:** Army Fires Center of Excellence — Captains Career Course Table-Top Exercise Simulator. Replaces Excel-based tabletop exercises with a RAG chatbot over Army doctrine and a Google Maps operational picture.
 
 **Authorship:** Kimberly Zhang
 
@@ -95,7 +95,7 @@ Second, the map had to be worth looking at. Asked about bridges and crossings, I
 
 ---
 
-**Project:** DoD Travel Agent on genai.mil (Q2 2026). A Joint Travel Regulations policy agent — ADK on Cloud Run, served to Gemini Enterprise over A2A — answering entitlement questions with mandatory JTR citations and building itineraries inside GSA per-diem caps.
+**Project:** DoD Travel Agent on genai.mil. A Joint Travel Regulations policy agent — ADK on Cloud Run, served to Gemini Enterprise over A2A — answering entitlement questions with mandatory JTR citations and building itineraries inside GSA per-diem caps.
 
 **Authorship:** Kimberly Zhang
 
@@ -122,7 +122,7 @@ The decision I would defend hardest is that per-diem compliance is enforced in t
 
 ---
 
-**Project:** LOGCAP DFAC Command Center (Q1 2026). Menu planning and inventory for military Dining Facilities at Kwajalein Atoll, generating 28-day menu plans feasible against real inventory, expiry and delivery schedules.
+**Project:** LOGCAP DFAC Command Center. Menu planning and inventory for military Dining Facilities at Kwajalein Atoll, generating 28-day menu plans feasible against real inventory, expiry and delivery schedules.
 
 **Authorship:** Kimberly Zhang
 
