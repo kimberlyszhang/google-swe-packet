@@ -13,13 +13,13 @@
 | Introduction |
 | :---- |
 
-**Professional / Education Overview (Optional)**
+**Professional / Education Overview**
 
-My undergraduate degree is from Rutgers New Brunswick, a BA in economics and mathematics, and my master's is from Columbia University in financial engineering. Both are quantitative programs, and both are where the habit that runs through the projects below started: distrusting a number until you can show how it was derived.
+My undergraduate degree is from Rutgers New Brunswick, a BA in economics and mathematics, and my master's is from Columbia University in financial engineering.
 
-From January 2022 to March 2025 I was a Data Scientist at Microsoft, building executive dashboards in Shiny and R for the VP and leadership team of SCHIE. Building for an audience that makes decisions on what you put in front of them teaches a specific discipline — the number has to be right, its provenance has to be legible, and the interface has to make the answer obvious without a walkthrough. That is the same standard a compliance verdict, a vulnerability report card, or a doctrine citation has to meet.
+From January 2022 to March 2025 I was a Data Scientist at Microsoft, building executive dashboards for the Vice President and leadership team of Silicon, Cloud Hardware, and Infrastructure Engineering (SCHIE), the organization that designs and operates Azure's custom silicon, server hardware, and datacenter infrastructure. 
 
-I joined Google Cloud in March 2025 as a Generative AI Field Solutions Architect, working with Public Sector customers. Since then I have delivered the projects described below, along with work for MCCS, CBP, Census, and the Department of Energy and CEQ.
+I joined Google Cloud in March 2025 as a Generative AI Field Solutions Architect, working with Public Sector customers.
 
 **Current Role**
 
