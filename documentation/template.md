@@ -1,9 +1,9 @@
 Each example should include the following information (<500 words per project):
 Project: (Provide real examples that demonstrate your experience in the target job family or role)
-Authorship: Kimberly Zhang
-Supporting Links/Assets:
+Authorship: (the ROLE, not the name — e.g. owner, sole developer, hands-on contributor, collaborator)
+Supporting Links/Assets: (named, clickable links to each artifact — code, docs, diagrams, decks)
 Context/Impact:
-Demonstrated Competencies:
+Demonstrated Competencies: (label each with its scored category, e.g. [AI/ML ENGINEERING] Agentic & Multi-Agent Systems)
 
 Example:
 
