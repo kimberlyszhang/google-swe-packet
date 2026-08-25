@@ -19,7 +19,7 @@ I hold a BA in Economics and Mathematics from Rutgers University–New Brunswick
 
 From January 2022 to March 2025, I was a Data Scientist at Microsoft. I built executive dashboards for the Vice President and leadership team of Silicon, Cloud Hardware, and Infrastructure Engineering (SCHIE), the organization that designs and operates Azure's custom silicon, server hardware, and datacenter infrastructure.
 
-In March 2025, I joined Google Cloud as a Generative AI Field Solutions Architect on Google Public Sector's Rapid Innovation Team. The role is to serve as a technical advisor to Public Sector customers and to prove out Generative AI against their actual mission problems: understanding the customer's process and objectives, designing solutions that span AI, data, and infrastructure, and building working prototypes that demonstrate the capability rather than describe it. It also carries the work that outlives a single engagement — repeatable technical assets for customers and internal teams, and enterprise requirements carried back to Google Cloud product teams.
+In March 2025, I joined Google Cloud as a Generative AI Field Solutions Architect on Google Public Sector's Rapid Innovation Team. The role is to serve as a technical advisor to Public Sector customers and to prove out Generative AI against their actual mission problems: understanding the customer's process and objectives, designing solutions that span AI, data, and infrastructure, and building working prototypes that demonstrate the capability rather than describe it.
 
 **Current Role**
 
