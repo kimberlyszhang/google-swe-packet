@@ -1,6 +1,6 @@
 # Kimberly Zhang | FDE Artifacts
 
-| Googler LDAP: `[TBD]` Tenure at Google: `[TBD]` Current Title (Job Family/Sub-Family/Level): `[TBD]` Proposed Title (Job Family/Sub-Family): Forward-Deployed Engineer Current Manager's LDAP: `[TBD]` |  |  |
+| Googler LDAP: [Kimberly Zhang](mailto:kimberlyzhang@google.com) Tenure at Google: 1 year, 5 months (started March 24, 2025) Current Title (Job Family/Sub-Family/Level): *Generative AI Field Solutions Architect* Proposed Title (Job Family/Sub-Family): Forward-Deployed Engineer Current Manager's LDAP: `[TBD]` |  |  |
 | :---- | ----- | ----- |
 
 | Overview: This is the FDE Artifact document for Kimberly Zhang. It describes five projects delivered over the last two years, all for Public Sector customers, and all built end to end as the sole developer: a multimodal compliance reviewer for FINRA, a cyber vulnerability management platform for the Defense Logistics Agency, a table-top exercise simulator for the Army Fires Center of Excellence, a Joint Travel Regulations agent on genai.mil, and a menu and inventory planner for LOGCAP dining facilities. Every supporting link resolves to `main` in the named repository. |  |  |
@@ -11,7 +11,11 @@
 
 **Professional / Education Overview (Optional)**
 
-`[TBD — degrees, pre-Google roles, and the path into Public Sector Gen AI.]`
+My undergraduate degree is from Rutgers New Brunswick, a BA in economics and mathematics, and my master's is from Columbia University in financial engineering. Both are quantitative programs, and both are where the habit that runs through the projects below started: distrusting a number until you can show how it was derived.
+
+From January 2022 to March 2025 I was a Data Scientist at Microsoft, building executive dashboards in Shiny and R for the VP and leadership team of SCHIE. Building for an audience that makes decisions on what you put in front of them teaches a specific discipline — the number has to be right, its provenance has to be legible, and the interface has to make the answer obvious without a walkthrough. That is the same standard a compliance verdict, a vulnerability report card, or a doctrine citation has to meet.
+
+I joined Google Cloud in March 2025 as a Generative AI Field Solutions Architect, working with Public Sector customers. Since then I have delivered the five prototypes described below, along with work for MCCS, CBP, Census, the Department of Energy and CEQ, and the internal Risk and Compliance team.
 
 **Current Role**
 
