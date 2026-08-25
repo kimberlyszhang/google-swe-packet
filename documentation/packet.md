@@ -3,7 +3,7 @@
 | Googler LDAP: [Kimberly Zhang](mailto:kimberlyzhang@google.com) Tenure at Google: 1 year, 5 months (started March 24, 2025) Current Title (Job Family/Sub-Family/Level): *Generative AI Field Solutions Architect* Proposed Title (Job Family/Sub-Family): Forward-Deployed Engineer Current Manager's LDAP: [cbenge](mailto:cbenge@google.com) |  |  |
 | :---- | ----- | ----- |
 
-| Overview: This is the FDE Artifact document for Kimberly Zhang. It describes five projects delivered over the last two years, all for Public Sector customers, and all built end to end as the sole developer: a multimodal compliance reviewer for FINRA, a cyber vulnerability management platform for the Defense Logistics Agency, a table-top exercise simulator for the Army Fires Center of Excellence, a Joint Travel Regulations agent on genai.mil, and a menu and inventory planner for LOGCAP dining facilities. Every supporting link resolves to `main` in the named repository. |  |  |
+| Overview: This is the FDE Artifact document for Kimberly Zhang. It describes six projects delivered over the last two years. Five are Public Sector customer engagements built end to end as the sole developer: a multimodal compliance reviewer for FINRA, a cyber vulnerability management platform for the Defense Logistics Agency, a table-top exercise simulator for the Army Fires Center of Excellence, a Joint Travel Regulations agent on genai.mil, and a menu and inventory planner for LOGCAP dining facilities. The sixth, RedactAI, is a contributor entry: an internal adaptation of another engineer's tool, included for the authorization model I added to it. Every supporting link resolves to the branch named beside it. |  |  |
 | :---- | ----- | ----- |
 
 | Introduction |
@@ -15,11 +15,11 @@ My undergraduate degree is from Rutgers New Brunswick, a BA in economics and mat
 
 From January 2022 to March 2025 I was a Data Scientist at Microsoft, building executive dashboards in Shiny and R for the VP and leadership team of SCHIE. Building for an audience that makes decisions on what you put in front of them teaches a specific discipline — the number has to be right, its provenance has to be legible, and the interface has to make the answer obvious without a walkthrough. That is the same standard a compliance verdict, a vulnerability report card, or a doctrine citation has to meet.
 
-I joined Google Cloud in March 2025 as a Generative AI Field Solutions Architect, working with Public Sector customers. Since then I have delivered the five prototypes described below, along with work for MCCS, CBP, Census, the Department of Energy and CEQ, and the internal Risk and Compliance team.
+I joined Google Cloud in March 2025 as a Generative AI Field Solutions Architect, working with Public Sector customers. Since then I have delivered the projects described below, along with work for MCCS, CBP, Census, and the Department of Energy and CEQ.
 
 **Current Role**
 
-*I scope, build and deliver Generative AI prototypes for Public Sector customers — Department of Defense, federal civilian agencies, and regulated industry — from first customer conversation through a working, deployed system. Each engagement is short, the requirements arrive ambiguous, and I own the whole stack: problem definition and scoping artifacts, data and retrieval design, model selection, frontend, backend, infrastructure, and the security and cost properties the customer will be asked about when the prototype moves toward production. Not every engagement starts from nothing. RedactAI was a document-redaction tool another engineer had built for FOIA requests; I moved it to App Engine so it would serve our internal Risk and Compliance team, rebuilt the UI, adapted the compliance evaluation rubric from FOIA to their review criteria, and added the authorization model it needed to hold their documents — entitlements by group, so a document is visible only to members of the group it belongs to, plus a separate admin application for managing group membership and access requests. In 2026 I also mentored an incoming Gen AI FSA through onboarding, received the Q2 GPS Values Impact Award for Scale for Impact, and was awarded a spot bonus for leadership and technical execution on the RedactAI MVP.*
+*I scope, build and deliver Generative AI prototypes for Public Sector customers — Department of Defense, federal civilian agencies, and regulated industry — from first customer conversation through a working, deployed system. Each engagement is short, the requirements arrive ambiguous, and I own the whole stack: problem definition and scoping artifacts, data and retrieval design, model selection, frontend, backend, infrastructure, and the security and cost properties the customer will be asked about when the prototype moves toward production. Not every engagement starts from nothing: the RedactAI entry below is work I did inside a system another engineer built, which is its own discipline. In 2026 I also mentored an incoming Gen AI FSA through onboarding, received the Q2 GPS Values Impact Award for Scale for Impact, and was awarded a spot bonus for leadership and technical execution on the RedactAI MVP.*
 
 **Peer Statements of Support *[OPTIONAL]***
 
@@ -203,6 +203,36 @@ That split makes the system testable and cheap. Phase 3 sums every ingredient's 
 * **[OPERATIONAL EXCELLENCE] Testing & Quality Engineering** — 38 test files, including SQL tests for the BigQuery layer.
 * **[SCOPING & DOCUMENTATION] API Documentation** — a 16-endpoint reference with a consistent `{ data } / { error }` envelope, anchored to the source layout.
 
+---
+
+**Project:** RedactAI — Document Redaction for Risk and Compliance (Q2 2026). An existing FOIA redaction tool, adapted into an internal review platform and given the authorization model it needed to hold Risk and Compliance's documents.
+
+**Authorship:** *Contributor — the FOIA redaction pipeline is another engineer's; everything cited below is my work on the `risk-compliance` branch*
+
+**Supporting Links/Assets:** [foia-workflow @ `risk-compliance`](https://github.com/GPS-Demos/foia-workflow/tree/risk-compliance) — another team's repository, so my work lives on this branch rather than `main`
+
+* [`manage-groups/main.py`](https://github.com/GPS-Demos/foia-workflow/blob/risk-compliance/infra/src/apis/manage-groups/main.py), [`manage-groups.tf`](https://github.com/GPS-Demos/foia-workflow/blob/risk-compliance/infra/modules/apis/manage-groups.tf) — the entitlements API
+* [`case.py`](https://github.com/GPS-Demos/foia-workflow/blob/risk-compliance/infra/src/common/case.py) — the group-scoped case query and `user_can_access`
+* [`admin-ui/`](https://github.com/GPS-Demos/foia-workflow/tree/risk-compliance/infra/src/admin-ui) — the entitlement-management application
+* [`auth.tf`](https://github.com/GPS-Demos/foia-workflow/blob/risk-compliance/infra/modules/apis/auth.tf), [`kms.tf`](https://github.com/GPS-Demos/foia-workflow/blob/risk-compliance/infra/modules/data/kms.tf), [`iam_policy.json`](https://github.com/GPS-Demos/foia-workflow/blob/risk-compliance/org-policies/iam_policy.json), [`bootstrap_admin.py`](https://github.com/GPS-Demos/foia-workflow/blob/risk-compliance/bootstrap_admin.py) — auth infrastructure, CMEK, org-policy IAM, admin bootstrap
+* [`app.yaml`](https://github.com/GPS-Demos/foia-workflow/blob/risk-compliance/infra/src/ui/app.yaml) — the App Engine migration; [`test_auth.py`](https://github.com/GPS-Demos/foia-workflow/blob/risk-compliance/infra/tests/test_auth.py)
+
+**Context/Impact:** *Recognized with a spot bonus for "leadership, tech execution and reduction of toil": the tool took "a manual process costing 80+ hours per cycle" and turned it into "a scalable, AI-powered solution targeting the reclamation of over 18,000 manual hours per year."*
+
+The tool was built for FOIA requests, where a case is public-records work and everyone working the queue may see everything. Risk and Compliance review regulatory responses, where a case is confidential and only the people staffed on it may see it. So the migration was the easy half — App Engine, a rebuilt UI, a compliance rubric retargeted from FOIA exemptions to their review criteria — and the blocking problem was that the system had no concept of who may see a document.
+
+I include this one because of where I chose to enforce that. Access is a predicate in the BigQuery query, not a filter in the UI: `get_case_list` returns a case only when the caller created it or shares a group with its `assigned_groups`, passed as bound query parameters, and `user_can_access` is the one place that rule is written. The API wrapper resolves the caller's groups before dispatch, so a handler cannot forget to ask. On `main` the words `user_groups` and `assigned_groups` do not appear at all.
+
+Entitlements are then self-service rather than an engineering task: a non-admin may only list groups and submit a request with a justification, admins approve or deny, and everything else in the API refuses without the `admin` group.
+
+**Demonstrated Competencies:**
+
+* **[SECURITY] Authentication & Authorization** — authorization as a query predicate over bound parameters, one shared access rule, and group resolution before dispatch; admin actions refuse by default.
+* **[SECURITY] Data Protection & Privacy** — CMEK on the data module, and redaction of the sensitive text itself as the product.
+* **[SECURITY] Compliance & Governance** — org-policy constraint checks and an IAM policy kept under version control.
+* **[OPERATIONAL EXCELLENCE] Infrastructure as Code** — one Terraform module per API, including the two I added.
+* **[OPERATIONAL EXCELLENCE] Testing & Quality Engineering** — tests over the auth path, the part where a regression is a disclosure.
+
 | Library of Technical & Non-technical Skills |
 | :---- |
 
@@ -233,11 +263,11 @@ That split makes the system testable and cheap. Phase 3 sums every ingredient's 
 | \[Security, Privacy, and Compliance\] |  |
 | :---- | :---- |
 | **Competency Examples:** |  |
-| **Authentication & Authorization** | Service accounts, IAM, API key scoping, OAuth/OIDC, Least Privilege **Project: FINRA**; DLA |
+| **Authentication & Authorization** | Service accounts, IAM, API key scoping, OAuth/OIDC, Least Privilege **Project: FINRA, RedactAI**; DLA |
 | **Infrastructure & Network Security** | VPC design, network segmentation, private endpoints, zero-trust architecture, service perimeters, firewall policies **Project: DLA**; FINRA |
-| **Data Protection & Privacy** | Encryption at rest/transit, PII handling, data classification, DLP, Secrets management **Project: DLA**; FINRA, LOGCAP |
+| **Data Protection & Privacy** | Encryption at rest/transit, PII handling, data classification, DLP, Secrets management **Project: DLA**; FINRA, LOGCAP, RedactAI |
 | **AI-Specific Security** | Prompt injection mitigation, output filtering, guardrails, model access controls, content safety **Project: DLA**; FINRA, LOGCAP |
-| **Compliance & Governance** | Audit logging, data residency, regulatory requirements, policy enforcement **Project: DLA**; FINRA, DoD Travel Agent |
+| **Compliance & Governance** | Audit logging, data residency, regulatory requirements, policy enforcement **Project: DLA**; FINRA, DoD Travel Agent, RedactAI |
 | ***Evidence examples*** | *Code samples of implemented guardrails/filters, IAM role configurations, network perimeter diagrams, security risk assessments, etc* |
 
 | \[RELIABILITY & RESILIENCE\] |  |
@@ -261,9 +291,9 @@ That split makes the system testable and cheap. Phase 3 sums every ingredient's 
 | :---- | :---- |
 | **Competency Examples:** |  |
 | **CI/CD & Deployment** | Pipeline design, deployment strategies (blue/green, canary), rollback automation **Project: DLA**; FINRA |
-| **Infrastructure as Code** | Terraform/Pulumi, Cloud Build, reproducible environments, environment parity **Project: DLA**; DoD Travel Agent |
+| **Infrastructure as Code** | Terraform/Pulumi, Cloud Build, reproducible environments, environment parity **Project: DLA**; DoD Travel Agent, RedactAI |
 | **AI Lifecycle Management** | Model and agent versioning, A/B testing, prompt and agent configuration management, experiment tracking, agent operational tooling **Project: FINRA**; LOGCAP, DLA |
-| **Testing & Quality Engineering** | Unit, integration, e2e testing, load and performance testing, test automation, test coverage **Project: DLA, FINRA**; LOGCAP, DoD Travel Agent |
+| **Testing & Quality Engineering** | Unit, integration, e2e testing, load and performance testing, test automation, test coverage **Project: DLA, FINRA**; LOGCAP, DoD Travel Agent, RedactAI |
 | ***Evidence examples*** | *Evaluation pipeline code, CI/CD architectures, Terraform code, experiment tracking logs, etc.* |
 
 | \[DESIGNING FOR CHANGE\] |  |
