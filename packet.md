@@ -15,11 +15,11 @@
 
 **Professional / Education Overview**
 
-My undergraduate degree is from Rutgers New Brunswick, a BA in economics and mathematics, and my master's is from Columbia University in financial engineering.
+I hold a BA in Economics and Mathematics from Rutgers University–New Brunswick and an MS in Financial Engineering from Columbia University.
 
-From January 2022 to March 2025 I was a Data Scientist at Microsoft, building executive dashboards for the Vice President and leadership team of Silicon, Cloud Hardware, and Infrastructure Engineering (SCHIE), the organization that designs and operates Azure's custom silicon, server hardware, and datacenter infrastructure. 
+From January 2022 to March 2025, I was a Data Scientist at Microsoft, where I built executive dashboards for the Vice President and leadership team of Silicon, Cloud Hardware, and Infrastructure Engineering (SCHIE) — the organization responsible for designing and operating Azure's custom silicon, server hardware, and datacenter infrastructure.
 
-I joined Google Cloud in March 2025 as a Generative AI Field Solutions Architect, working with Public Sector customers.
+In March 2025, I joined Google Cloud as a Generative AI Field Solutions Architect supporting Public Sector customers.
 
 **Current Role**
 
