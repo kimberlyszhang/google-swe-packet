@@ -4,11 +4,11 @@
 | :---- | :---- |
 | Googler LDAP | [Kimberly Zhang](mailto:kimberlyzhang@google.com) |
 | Tenure at Google | 1 year, 5 months (started March 24, 2025) |
-| Current Title (Job Family/Sub-Family/Level) | *Generative AI Field Solutions Architect* |
-| Proposed Title (Job Family/Sub-Family) | Forward-Deployed Engineer |
+| Current Title (Job Family/Sub-Family/Level) | Generative AI Field Solutions Architect |
+| Proposed Title (Job Family/Sub-Family) | Software Engineer |
 | Current Manager's LDAP | [cbenge](mailto:cbenge@google.com) |
 
-**Overview:** This is the FDE Artifact document for Kimberly Zhang. It describes six projects delivered over the last two years. Five are Public Sector customer engagements built end to end as the sole developer: a multimodal compliance reviewer for FINRA, a cyber vulnerability management platform for the Defense Logistics Agency, a table-top exercise simulator for the Army Fires Center of Excellence, a Joint Travel Regulations agent on genai.mil, and a menu and inventory planner for LOGCAP dining facilities. The sixth, RedactAI, is a contributor entry: an internal adaptation of another engineer's tool, included for the authorization model I added to it. Every supporting link resolves to the branch named beside it.
+**Overview:** This document describes six projects delivered over the last two years. Five are Public Sector customer engagements built end to end as the sole developer: a multimodal compliance reviewer for FINRA, a cyber vulnerability management platform for the Defense Logistics Agency, a table-top exercise simulator for the Army Fires Center of Excellence, a Joint Travel Regulations agent on genai.mil, and a menu and inventory planner for LOGCAP dining facilities. The sixth, RedactAI, is a contributor entry: an internal adaptation of another engineer's tool, included for the authorization model I added to it. Every supporting link resolves to the branch named beside it.
 
 | Introduction |
 | :---- |
