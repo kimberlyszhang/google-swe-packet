@@ -1,4 +1,4 @@
-# Kimberly Zhang | FDE Artifacts
+# Kimberly Zhang | SWE Artifacts
 
 | Field | Value |
 | :---- | :---- |
