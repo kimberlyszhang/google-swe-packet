@@ -238,7 +238,7 @@ Entitlements are then self-service rather than an engineering task: a non-admin 
 | Library of Technical & Non-technical Skills |
 | :---- |
 
-*Every sub-competency below is claimed by at least one project above. File-level evidence for each is in [`coverage-matrix.md`](coverage-matrix.md).*
+*Every sub-competency below is claimed by at least one project above.
 
 | \[AI/ML ENGINEERING\] |  |
 | :---- | :---- |
