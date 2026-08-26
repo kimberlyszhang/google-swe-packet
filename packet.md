@@ -64,8 +64,6 @@ In 2026, I received the Q2 GPS Values Impact Award for Scale for Impact, and was
 
 Member firms face hundreds of thousands of pending ad approvals, making cost and throughput per video product constraints. The design makes evidence precede judgment: everything citable — a time-indexed transcript, every on-screen disclosure with dwell time and glyph height — is extracted and persisted before adjudication, which reads that stored evidence and never the video. Two gates then separate what an agent concluded from what a reviewer sees.
 
-Measured on the blind set at `0.5.0` (2026-08-10): case recall 12/13, `mustNotFlag` breaches 0, **$23.50 per 26-advertisement sweep**, 13-way parallelism cutting it from ~2 hours to 23.5 minutes; specificity improved 2/10 → 6/10 by `0.11.1`.
-
 **Demonstrated Competencies:**
 
 * **[AI/ML ENGINEERING] Agentic & Multi-Agent Systems** — bounded per-clause fan-out; schema-rejected answers re-asked with the validator's refusal.
