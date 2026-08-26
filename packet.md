@@ -94,11 +94,9 @@ Member firms face hundreds of thousands of pending ad approvals, making cost and
 * [`sse-chat.k6.js`](https://github.com/GPS-Demos/dla-gti/blob/main/tests/load/sse-chat.k6.js) — the load test
 * Architecture: [system overview](https://github.com/GPS-Demos/dla-gti/blob/main/README.md#system-overview) and [data pipeline](https://github.com/GPS-Demos/dla-gti/blob/main/README.md#data-pipeline) diagrams
 
-**Context/Impact:** *Delivered in Q2 2026 and developed further live with the customer during a full-day onsite at DLA Troop Support, Philadelphia. DLA triaged vulnerabilities through a manual "report card" workflow in spreadsheets; the prototype kept that workflow and put a near-real-time platform underneath it, with Gemini ranking what to patch first.*
+**Context/Impact:** *Delivered in Q2 2026. DLA triaged vulnerabilities through a manual "report card" workflow in spreadsheets; the prototype kept that workflow and put a near-real-time platform underneath it, with Gemini ranking what to patch first.*
 
 The operational engineering is the substance here. The input is attacker-controllable — CVE and alert text written by third parties, fed to a model — so prompt-injection defense is two-sided: input is sanitized and sentinel-wrapped on the way in, output is scanned for injection markers and redacted before reaching the UI, and both have regression tests. Access is least-privilege per service: each has its own service account, additive-only IAM bindings, internal-only ingress.
-
-A control deferred rather than built is still a written decision with a reversal condition: ADR 0005 defers VPC-SC and CMEK, naming what reverses it — live data, CUI, or an RMF assessment. ADR 0001 is the honest one: its rejected alternative shipped, then reverted after a partial write left four copies of every CVE.
 
 **Demonstrated Competencies:**
 
