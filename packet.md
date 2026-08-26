@@ -3,7 +3,7 @@
 | Field | Value |
 | :---- | :---- |
 | Googler LDAP | [Kimberly Zhang](mailto:kimberlyzhang@google.com) |
-| Tenure at Google | 1 year, 5 months (started March 24, 2025) |
+| Tenure at Google | 1 year, 5 months |
 | Current Title (Job Family/Sub-Family/Level) | Generative AI Field Solutions Architect |
 | Proposed Title (Job Family/Sub-Family) | Software Engineer |
 | Current Manager's LDAP | [cbenge](mailto:cbenge@google.com) |
