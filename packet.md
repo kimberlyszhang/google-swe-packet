@@ -15,7 +15,7 @@
 
 **Professional / Education Overview**
 
-I hold a BA in Economics and Mathematics from Rutgers University–New Brunswick (2011) and an MS in Financial Engineering from Columbia University (2014).
+I hold a Bachelor of Arts in Economics and Mathematics from Rutgers University–New Brunswick (2011) and a Master of Science in Financial Engineering from Columbia University (2014).
 
 From January 2022 to March 2025, I was a Data Scientist at Microsoft. I built executive dashboards for the Vice President and leadership team of Silicon, Cloud Hardware, and Infrastructure Engineering (SCHIE), the organization that designs and operates Azure's custom silicon, server hardware, and datacenter infrastructure.
 
