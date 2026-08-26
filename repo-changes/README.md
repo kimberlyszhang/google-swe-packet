@@ -4,10 +4,10 @@ What to change in each packet repo, why, and in what order. Every claim in these
 verified with `git` and `gh` against `origin/main` on **2026-08-22**; nothing here is inferred from
 a README.
 
-The packet itself (`documentation/packet.md`) is written **after** you decide on these, so that
+The packet itself ([`packet.md`](../packet.md)) is written **after** you decide on these, so that
 every Supporting Link resolves and no entry cites evidence that is sitting on a branch.
 
-Evidence mapping for all of it: [`documentation/coverage-matrix.md`](../documentation/coverage-matrix.md).
+Evidence mapping for all of it: [`coverage-matrix.md`](../coverage-matrix.md).
 
 ---
 
