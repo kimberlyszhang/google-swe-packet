@@ -240,9 +240,8 @@ Entitlements are then self-service rather than an engineering task: a non-admin 
 
 *Every sub-competency below is claimed by at least one project above.
 
-| \[AI/ML ENGINEERING\] |  |
+| \[AI/ML ENGINEERING\] | **Competency Examples:** |
 | :---- | :---- |
-| **Competency Examples:** |  |
 | **Agentic & Multi-Agent Systems** | Agent orchestration, tool/function calling, planning/reasoning loops, and multi-agent coordination. **Project: FINRA**; DoD Travel Agent, DLA |
 | **Retrieval & Data Engineering (RAG)** | RAG architecture patterns, embedding models and vector databases, chunking and indexing strategies, hybrid search, grounding and citation, data pipelines for AI, parsing complex document formats (PDF/HTML tables), and citation/grounding. **Project: Army CCC**; FINRA |
 | **Model Selection & Tuning** | Optimization for quality/latency/cost, prompt engineering, structured output (JSON mode), and quantization/distillation. Data engineering (preparation, labeling, synthetic generation), architecture selection (encoder/decoder). **Project: LOGCAP**; Army CCC, FINRA |
@@ -250,9 +249,8 @@ Entitlements are then self-service rather than an engineering task: a non-admin 
 | **Domain-Applied AI/ML Expertise** | Applying AI solutions to specific industry verticals, handling domain-specific data/constraints, and mapping business KPIs to AI architectures. **Project: FINRA, Army CCC**; DoD Travel Agent, DLA |
 | ***Evidence examples*** | *Architecture diagrams, code samples (agent logic, chunking pipelines, prompt templates), evaluation and training datasets, domain-specific implementations, etc* |
 
-| \[SCOPING AND DOCUMENTATION\] |  |
+| \[SCOPING AND DOCUMENTATION\] | **Competency Examples:** |
 | :---- | :---- |
-| **Competency Examples:** |  |
 | **Problem Definition** | Identifying and articulating the business problem, translating ambiguity into a technical opportunity, documenting what success unlocks for the customer **Project: DoD Travel Agent**; FINRA |
 | **Technical Scope & Constraints** | Defining technical scope, identifying constraints and assumptions, documenting system boundaries and the architectural approach prior to build **Project: DoD Travel Agent**; FINRA |
 | **Stakeholder Alignment & Success Criteria** | Evidence of stakeholder alignment, defined success criteria and acceptance criteria, phased delivery plan or architectural roadmap **Project: DoD Travel Agent**; DLA |
@@ -262,9 +260,8 @@ Entitlements are then self-service rather than an engineering task: a non-admin 
 | **Operational Documentation** | Deployment guides, runbooks, onboarding docs, troubleshooting guides **Project: DLA**; FINRA, LOGCAP |
 | ***Evidence examples*** | *ADRs, design docs, system/sequence diagrams, scoping questionnaires, API/runbook documentation, etc* |
 
-| \[Security, Privacy, and Compliance\] |  |
+| \[Security, Privacy, and Compliance\] | **Competency Examples:** |
 | :---- | :---- |
-| **Competency Examples:** |  |
 | **Authentication & Authorization** | Service accounts, IAM, API key scoping, OAuth/OIDC, Least Privilege **Project: FINRA, RedactAI**; DLA |
 | **Infrastructure & Network Security** | VPC design, network segmentation, private endpoints, zero-trust architecture, service perimeters, firewall policies **Project: DLA**; FINRA |
 | **Data Protection & Privacy** | Encryption at rest/transit, PII handling, data classification, DLP, Secrets management **Project: DLA**; FINRA, LOGCAP, RedactAI |
@@ -272,35 +269,31 @@ Entitlements are then self-service rather than an engineering task: a non-admin 
 | **Compliance & Governance** | Audit logging, data residency, regulatory requirements, policy enforcement **Project: DLA**; FINRA, DoD Travel Agent, RedactAI |
 | ***Evidence examples*** | *Code samples of implemented guardrails/filters, IAM role configurations, network perimeter diagrams, security risk assessments, etc* |
 
-| \[RELIABILITY & RESILIENCE\] |  |
+| \[RELIABILITY & RESILIENCE\] | **Competency Examples:** |
 | :---- | :---- |
-| **Competency Examples:** |  |
 | **Availability Design** | Redundancy, failover, health checks, SLO/SLA definition, distributed systems patterns (consistency models, partitioning, multi-region, inter-service communication) **Project: DLA**; FINRA |
 | **Observability** | Structured logging, metrics, distributed tracing, AI-specific monitoring (latency, token usage, quality) **Project: DLA**; LOGCAP, DoD Travel Agent, FINRA |
 | **Failure & Recovery Testing** | Failure injection, red teaming, disaster recovery validation, backup/restore testing, resilience testing under degraded conditions **Project: DLA**; FINRA |
 | **Graceful Degradation** | Fallback strategies, circuit breakers, retry policies, timeout handling **Project: FINRA, DoD Travel Agent**; DLA |
 | ***Evidence examples*** | *Dashboards/monitoring configurations, resilience testing logs, code samples of circuit breakers or fallback logic, red-teaming reports, etc* |
 
-| \[PERFORMANCE & COST OPTIMIZATION\] |  |
+| \[PERFORMANCE & COST OPTIMIZATION\] | **Competency Examples:** |
 | :---- | :---- |
-| **Competency Examples:** |  |
 | **Scalability & Elasticity** | Horizontal and vertical scaling strategies, autoscaling policies, load balancing, API throughput design, HPC/GPU cluster scaling, and scalable inference. **Project: FINRA**; DLA |
 | **Resource Efficiency** | Compute/GPU right-sizing, autoscaling strategies, spot/preemptible usage **Project: Army CCC**; LOGCAP, DLA |
 | **AI Cost Management** | Model selection trade-offs, response caching, batching, memory and embeddings, data and context management, token optimization **Project: FINRA**; LOGCAP, DLA |
 | ***Evidence examples*** | *Cost forecasting models, sizing/capacity calculation sheets, caching implementation code, infrastructure scaling configurations, etc* |
 
-| \[OPERATIONAL EXCELLENCE\] |  |
+| \[OPERATIONAL EXCELLENCE\] | **Competency Examples:** |
 | :---- | :---- |
-| **Competency Examples:** |  |
 | **CI/CD & Deployment** | Pipeline design, deployment strategies (blue/green, canary), rollback automation **Project: DLA**; FINRA |
 | **Infrastructure as Code** | Terraform/Pulumi, Cloud Build, reproducible environments, environment parity **Project: DLA**; DoD Travel Agent, RedactAI |
 | **AI Lifecycle Management** | Model and agent versioning, A/B testing, prompt and agent configuration management, experiment tracking, agent operational tooling **Project: FINRA**; LOGCAP, DLA |
 | **Testing & Quality Engineering** | Unit, integration, e2e testing, load and performance testing, test automation, test coverage **Project: DLA, FINRA**; LOGCAP, DoD Travel Agent, RedactAI |
 | ***Evidence examples*** | *Evaluation pipeline code, CI/CD architectures, Terraform code, experiment tracking logs, etc.* |
 
-| \[DESIGNING FOR CHANGE\] |  |
+| \[DESIGNING FOR CHANGE\] | **Competency Examples:** |
 | :---- | :---- |
-| **Competency Examples:** |  |
 | **Modularity & Abstraction** | Loose coupling, interface contracts, model swappability, dependency injection **Project: FINRA**; DLA, LOGCAP |
 | **Configuration Management** | Environment separation, feature flags, externalized config **Project: FINRA**; LOGCAP, DLA, Army CCC |
 | **API Design & Versioning** | Backward compatibility, contract-first design, schema evolution **Project: DLA**; FINRA, DoD Travel Agent |
